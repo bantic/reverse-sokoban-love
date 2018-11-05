@@ -1,5 +1,11 @@
 ![Gif of gameplay](sokoban-love.gif)
 
+Simple game like Sokoban except that it's inverted — there is no player to push
+pieces around. Instead the pieces are outside the target area and you move the
+background/world to shift the pieces until they collect in the target area.
+
+Built with Lua and the [Löve2D Engine](https://love2d.org).
+
 A few things to do next:
 
 - The next-position reconciliation needs to account for the next positions
